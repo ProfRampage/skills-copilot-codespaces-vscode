@@ -1,6 +1,4 @@
-{ ,
- "postCreateCommand": "echo '# Writing code upon codespace creation!'  >> codespace.md"
-    // Name this configuration
+{
     "name": "Codespace for Skills!",
     "customizations": {
         "vscode": {
@@ -9,4 +7,5 @@
             ]
         }
     }
-}
+} ,
+ "postCreateCommand": "echo '# Writing code upon codespace creation!'  >> codespace.md"
