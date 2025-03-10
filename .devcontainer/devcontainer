@@ -1,11 +1,14 @@
-{
-    "name": "Codespace for Skills!",
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "GitHub.copilot"
-            ]
-        }
-    }
-} ,
+ "customizations": {
+     "vscode": {
+         "extensions": [
+             "GitHub.copilot"
+         ]
+     },
+     "codespaces": {
+         "openFiles": [
+             "codespace.md"
+         ]
+     }
+ ,
  "postCreateCommand": "echo '# Writing code upon codespace creation!'  >> codespace.md"
+git pull }
